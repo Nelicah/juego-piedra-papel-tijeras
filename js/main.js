@@ -5,6 +5,9 @@ const gonnaPLay = document.querySelector('.js_gonnaPLay');
 const player = document.querySelector('.js_player');
 const computer = document.querySelector('.js_computer');
 const buttonPlay = document.querySelector('.js_buttonPlay');
+const rock = document.querySelector('.js_rock');
+const paper = document.querySelector('.js_paper');
+const scissors = document.querySelector('.js_scissors');
 
 //acciones
 function getRandomNumber(max) {
@@ -20,3 +23,10 @@ if (getRandomNumber <= 3) {
 };
 console.log(getRandomNumber(9));
 console.log(getRandomNumber(9));
+
+buttonPlay.addEventListener('click', (ev) => {
+  ev.preventDefault();
+  getRandomNumber(9);
+  
+ 
+});
