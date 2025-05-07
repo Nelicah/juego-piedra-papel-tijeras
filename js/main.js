@@ -56,5 +56,14 @@ buttonPlay.addEventListener('click', (ev) => {
 
   if (jugadasRealizadas === maxJugadas) {
     buttonPlay.classList.add('hide');
+    const resultPlayer = playerPoints;
+    const resultComputer = computerPoints;
+    if (resultPlayer > resultComputer) {
+      gonnaPLay.innerHTML = '¡Fin del juego! Ganador: Jugador/a'
+    } else if (resultPlayer < resultComputer) {
+      gonnaPLay.innerHTML = '¡Fin del juego! Ganador: Computadora'
+    } else {
+      gonnaPLay.innerHTML = '¡Fin del juego! Empate'
+    }
   }
 });
