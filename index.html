@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/main.css" />
+    <title>Juego piedra,papel y tijera</title>
+  </head>
+  <body>
+    <h1 class="mainTitle">Juego Piedra, Papel y Tijera</h1>
+    <h3 class="secondTitle">Introduce aquí tu jugada:</h3>
+    <form class="gameForm">
+      <select name="play" id="play">
+        <option selected disabled>Seleccione su jugada</option>
+        <option value="p1">Piedra</option>
+        <option value="p2">Papel</option>
+        <option value="p3">Tijera</option>
+      </select>
+      <input type="submit" class="js_buttonPlay" value="Jugar" />
+    </form>
+    <p class="js_gonnaPlay">¡Vamos a jugar!</p>
+    <p class="js_player">Jugador: 0</p>
+    <p class="js_computer">Computadora: 0</p>
+    <script type="text/javascript" src="./js/main.js"></script>
+  </body>
+</html>
