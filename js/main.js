@@ -36,9 +36,10 @@ buttonPlay.addEventListener('click', (ev) => {
 
   const playerChoice = playSelect.value;
   const computerChoice = getComputerPlay();
+  console.log(computerChoice);
 
   if (playerChoice === computerChoice) {
-    gonnaPLay.innerHTML += "¡Empate!";
+    gonnaPLay.innerHTML = "¡Empate!";
   } else if (
     (playerChoice === "piedra" && computerChoice === "papel") ||
     (playerChoice === "papel" && computerChoice === "tijera") ||
