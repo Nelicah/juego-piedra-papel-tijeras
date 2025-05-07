@@ -5,28 +5,37 @@ const gonnaPLay = document.querySelector('.js_gonnaPLay');
 const player = document.querySelector('.js_player');
 const computer = document.querySelector('.js_computer');
 const buttonPlay = document.querySelector('.js_buttonPlay');
-const rock = document.querySelector('.js_rock');
-const paper = document.querySelector('.js_paper');
-const scissors = document.querySelector('.js_scissors');
+const playSelect = document.querySelector('.js_playSelect');
 
 //acciones
+const playerPoints = 0;
+const computerPoints = 0;
+
 function getRandomNumber(max) {
   return Math.ceil(Math.random() * max);
   }
 
-if (getRandomNumber <= 3) {
-  console.log('La computadora ha sacado "Piedra"');
-} else if (getRandomNumber >= 7) {
-  console.log('La computadora ha sacado "Papel"');
-} else {
-  console.log ('La computadora ha sacado "Tijera"');
+// función para la jugada de la computadora
+function getComputerPlay() {
+  const randomComputerNumber = getRandomNumber(9);
+  if (randomComputerNumber <= 3) {
+    return "piedra";
+  } else if (randomComputerNumber >= 7) {
+    return "papel";
+  } else {
+    return "tijera";
+  }
 };
-console.log(getRandomNumber(9));
-console.log(getRandomNumber(9));
 
 buttonPlay.addEventListener('click', (ev) => {
   ev.preventDefault();
   getRandomNumber(9);
-  
+  if (rock.value === getRandomNumber <= 3) {
+    gonnaPLay.innerHTML += "¡Empate!";
+  } else if (rock.value === getRandomNumber >= 7) {
+    gonnaPLay.innerHTML += "¡Has perdido!";
+  } else if (rock.value === getRandomNumber) {
+    gonnaPLay.innerHTML += "¡Has ganado!";
+  }
  
 });
