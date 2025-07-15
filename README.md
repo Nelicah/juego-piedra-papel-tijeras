@@ -52,6 +52,7 @@ Clon este repositorio:
 
 ```bash
 git clone https://github.com/Nelicah/juego-piedra-papel-tijeras.git
+```
 
 ---
 
@@ -61,4 +62,3 @@ git clone https://github.com/Nelicah/juego-piedra-papel-tijeras.git
 💼 Desarrolladora Full Stack
 🔗 [LinkedIn](https://www.linkedin.com/in/cande-zamora-125301349)
 🎨 Alias creativa: **Nelicah**
-```
