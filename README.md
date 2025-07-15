@@ -1,4 +1,4 @@
-# ✂️ Piedra, Papel o Tijera 🪨📄
+# Piedra, Papel o Tijera 🪨📄✂️
 
 Este proyecto es un pequeño juego interactivo de **Piedra, Papel o Tijera**, desarrollado como ejercicio intermedio para practicar **JavaScript**, manipulación del DOM, eventos y lógica de programación.
 
