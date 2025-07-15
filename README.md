@@ -48,11 +48,17 @@ Permitir al usuario jugar contra la computadora hasta 10 rondas, mostrando los r
 
 ## 📝 ¿Cómo usarlo?
 
-Hay un enlace web en la parte derecha, en la sección "About"
+Clon este repositorio:
+
+```bash
+git clone https://github.com/Nelicah/juego-piedra-papel-tijeras.git
+
+---
 
 ## 👩‍💻 Autora
 
-**Cande Zamora**  
-💼 Desarrolladora Full Stack  
+**Cande Zamora**
+💼 Desarrolladora Full Stack
 🔗 [LinkedIn](https://www.linkedin.com/in/cande-zamora-125301349)
 🎨 Alias creativa: **Nelicah**
+```
