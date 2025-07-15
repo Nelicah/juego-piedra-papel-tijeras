@@ -58,7 +58,7 @@ git clone https://github.com/Nelicah/juego-piedra-papel-tijeras.git
 
 ## 👩‍💻 Autora
 
-**Cande Zamora**
-💼 Desarrolladora Full Stack
-🔗 [LinkedIn](https://www.linkedin.com/in/cande-zamora-125301349)
+**Cande Zamora**  
+💼 Desarrolladora Full Stack  
+🔗 [LinkedIn](https://www.linkedin.com/in/cande-zamora-125301349)  
 🎨 Alias creativa: **Nelicah**
