@@ -54,5 +54,5 @@ Hay un enlace web en la parte derecha, en la sección "About"
 
 **Cande Zamora**  
 💼 Desarrolladora Full Stack  
-🔗 [LinkedIn](www.linkedin.com/in/cande-zamora-125301349)
+🔗 [LinkedIn](https://www.linkedin.com/in/cande-zamora-125301349)
 🎨 Alias creativa: **Nelicah**
