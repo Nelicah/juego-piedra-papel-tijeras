@@ -1,3 +1,121 @@
+/* Reset básico */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Comic Sans MS", cursive, sans-serif;
+  background: linear-gradient(to right, #fef6ff, #d0f1ff);
+  padding: 40px 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: #333;
+}
+
+/* Títulos */
+.mainTitle {
+  font-size: 3rem;
+  color: #ff4b91;
+  margin-bottom: 10px;
+  text-shadow: 2px 2px #fff;
+  text-align: center;
+}
+
+.secondTitle {
+  font-size: 1.5rem;
+  margin-bottom: 20px;
+  color: #ff79ae;
+  text-align: center;
+}
+
+/* Formulario */
+.gameForm {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 15px;
+  margin-bottom: 30px;
+}
+
+/* Select */
+select {
+  padding: 10px 20px;
+  border-radius: 10px;
+  border: 2px solid #ff4b91;
+  background-color: #fff0f6;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: 0.3s;
+}
+select:hover {
+  background-color: #ffe1ec;
+}
+
+/* Botones */
+input[type="submit"],
+.js_buttonReset {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 10px;
+  background-color: #ff4b91;
+  color: white;
+  font-size: 1rem;
+  font-weight: bold;
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+
+input[type="submit"]:hover,
+.js_buttonReset:hover {
+  background-color: #ff79ae;
+}
+
 .hide {
-  display:none
+  display: none;
+}
+
+/* Resultado del juego */
+.js_gonnaPlay {
+  font-size: 1.5rem;
+  margin: 20px 0;
+  background-color: #fff;
+  padding: 15px 25px;
+  border-radius: 20px;
+  border: 2px dashed #ff4b91;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  min-height: 50px;
+  text-align: center;
+}
+
+/* Puntos */
+.js_player,
+.js_computer {
+  font-size: 1.3rem;
+  background-color: #fef6ff;
+  padding: 10px 20px;
+  margin: 10px;
+  border-radius: 15px;
+  border: 2px solid #ffd6ea;
+  box-shadow: 2px 2px #ffb0d4;
+}
+
+/* Responsivo */
+@media (max-width: 600px) {
+  .mainTitle {
+    font-size: 2.2rem;
+  }
+
+  .secondTitle {
+    font-size: 1.2rem;
+  }
+
+  select,
+  input[type="submit"],
+  .js_buttonReset {
+    width: 100%;
+    max-width: 300px;
+  }
 }

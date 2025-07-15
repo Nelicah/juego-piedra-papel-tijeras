@@ -4,19 +4,21 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="./css/main.css" />
-    <title>Juego piedra,papel y tijera</title>
+    <link rel="icon" href="cubos.png" type="image/x-icon" />
+    <title>¡Juguemos!</title>
   </head>
   <body>
-    <h1 class="mainTitle">Juego Piedra, Papel y Tijera</h1>
+    <h1 class="mainTitle">Piedra, Papel y Tijera</h1>
     <h3 class="secondTitle">Introduce aquí tu jugada:</h3>
     <form class="gameForm">
       <select name="play" id="play" class="js_playSelect">
-        <option selected disabled>Seleccione su jugada</option>
-        <option value="piedra">piedra</option>
-        <option value="papel">papel</option>
-        <option value="tijera">tijera</option>
+        <option selected disabled value="">Seleccione su jugada</option>
+        <option value="piedra">🪨Piedra</option>
+        <option value="papel">📄Papel</option>
+        <option value="tijera">✂️Tijera</option>
       </select>
       <input type="submit" class="js_buttonPlay" value="Jugar" />
+      <button class="js_buttonReset hide">Reset</button>
     </form>
     <p class="js_gonnaPlay">¡Vamos a jugar!</p>
     <p class="js_player">Jugador/a: 0</p>
